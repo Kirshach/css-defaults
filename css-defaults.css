@@ -1,15 +1,18 @@
-/* Defaults by Josh Comeau */
-
 /*
   1. Use a more-intuitive box-sizing model.
 */
 *, *::before, *::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
-/* 2. Remove default margin for common elements */
-body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, ul, ol, dl, dt, dd {
-  margin: 0;
+/* 2. Reasonable default margins */
+* + * {
+  margin-top: 1.5em;
+}
+
+body, br, li, dt, dd, th, td, option {
+  margin-top: 0;
 }
 
 /*
