@@ -1,2 +1,2 @@
 # css-defaults
-blatantly stolen from @joshwcomeau
+mostly blatantly stolen from @joshwcomeau
