@@ -6,11 +6,7 @@
   margin: 0;
 }
 
-/* 2. Reasonable default margins */
-* + * {
-  margin-top: 1.5em;
-}
-
+/* 2. Reset default margins */
 body, br, li, dt, dd, th, td, option {
   margin-top: 0;
 }
