@@ -8,7 +8,7 @@
 
 /* 2. Reset default margins */
 body, br, li, dt, dd, th, td, option {
-  margin-top: 0;
+  margin-block-start: 0;
 }
 
 /*
