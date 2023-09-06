@@ -14,8 +14,12 @@ body, br, li, dt, dd, th, td, option {
 /*
   3. Allow percentage-based heights in the application
 */
-html, body {
-  height: 100%
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
 }
 
 /*
